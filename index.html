@@ -5,22 +5,28 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <link rel="stylesheet" href="/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Roboto -->
+    <style>@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');</style> 
     <title>insideOUT</title>
   </head>
   <body>
-    <header>
+    <header class="container drop-shadow w-11/12 my-2 mx-auto flex gap-7 justify-between py-1 px-2">
       <a id="logo" href="/index.html">
-        <img id="logo-img" src="" alt="">
+        inside<strong style="color: #84C9FB; font-weight: 700;">OUT</strong>
       </a>
-      <nav>
-        <ul>
-          <li id="carrinho">Meu Carrinho</li>
-          <li>Contato</li>
-          <li>Sobre</li>
-          <li>Conta</li>
+      <nav class="flex items-center">
+        <ul class="flex gap-7">
+          <li><a id="carrinho" href="" class="rounded-lg p-1">Meu Carrinho</a></li>
+          <li><a href="">Loja</a></li>
+          <li><a href="">Promoções</a></li>
+          <li><a href="">Categorias</a></li>
+          <li><a href="">Contato</a></li>
         </ul>
       </nav>
     </header>
+    <nav class="container mx-auto my-2 py-2 bg-black">
+      TESTE
+    </nav>
     <main>
       <section class="section">
         <h1></h1>
@@ -41,23 +47,8 @@
     <footer class="footer">
 
     </footer>
-    <div class="flex flex-col items-center">
-      <span
-        class="
-          text-4xl text-center
-          my-20
-          bg-red-500
-          rounded-md
-          py-2
-          px-4
-          transform
-          -rotate-3
-          text-white
-        "
-      >
-        A simple boilerplate that actually works! 🔨
-      </span>
-    </div>
+    
     <script type="module" src="/main.js"></script>
+  
   </body>
 </html>
