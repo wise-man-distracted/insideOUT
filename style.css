@@ -16,17 +16,34 @@ header {
 header>a {
     font-weight: 100;
     color: rgba(0, 0, 0, 0.25);
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 header>nav>ul {
     font-family: Montserrat, sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
 
 }
 
-#carrinho {
+.primary-button {
     background-color: #84C9FB;
     color: white;
+}
+
+main>section {
+    background-color: rgb(39, 40, 43);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+section>article>h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1;
+    padding-bottom: 1.5rem;
+}
+
+section>article>p {
+    font-size: 1rem;
+    font-family: Montserrat, sans-serif;
 }
