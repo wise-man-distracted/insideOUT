@@ -13,6 +13,10 @@ header {
     background-color: blanchedalmond;
 }
 
+button {
+    font-family: Montserrat, sans-serif;
+}
+
 header>a {
     font-weight: 100;
     color: rgba(0, 0, 0, 0.25);
@@ -36,14 +40,21 @@ main>section {
     background-color: rgba(255, 255, 255, 0.05);
 }
 
-section>article>h1 {
+article>h1 {
     font-size: 3rem;
     font-weight: 500;
     line-height: 1;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.3rem;
 }
 
-section>article>p {
+article>h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1;
+    padding-bottom: 1.3rem;
+}
+
+article>p {
     font-size: 1rem;
     font-family: Montserrat, sans-serif;
 }
