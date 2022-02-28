@@ -1,5 +1,5 @@
 # insideOUT - Loja e comunidade de cultura nerd
-E-commerce e comunidade nerd feito em JS, com auxílio de diversas teconologias. A loja inclui produtos de RPG, cultura popular japonesa, HQs, action figures e etc. A comunidade divulga projetos independentes, eventos, artigos voltados à cultura nerd. App CRUD colaborativo desenvolvido por [@wise-man-distracted], [@rphaell], @matheusotaku, @barondev, @davilson e @el_reiluis.
+E-commerce e comunidade nerd feito em JS, com auxílio de diversas teconologias. A loja inclui produtos de RPG, cultura popular japonesa, HQs, action figures e etc. A comunidade divulga projetos independentes, eventos, artigos voltados à cultura nerd. App CRUD colaborativo desenvolvido por [@wise-man-distracted](https://github.com/wise-man-distracted), [@rphaell](https://github.com/rphaell), @matheusotaku, @barondev, @davilson e @el_reiluis.
 
 ## Teconologias usadas
 - HTML, CSS, JS
