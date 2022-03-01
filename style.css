@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root {
+    --primary-color: #84C9FB 
+}
+
 body {
     background-color: #27282B;
     color: aliceblue;
@@ -33,7 +38,7 @@ header>nav>ul {
 
 
 .primary-button {
-    background-color: #84C9FB;
+    background-color: var(--primary-color);
     color: white;
 }
 
@@ -74,4 +79,16 @@ div>h2 {
 article>p {
     font-size: 1rem;
     font-family: Montserrat, sans-serif;
+}
+
+div>p {
+    font-size: 1rem;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    line-height: 0;
+    overflow: wrap;
+}
+
+#opaque-wrapper {
+    background-color:rgba(0,0,0,.5);
 }
