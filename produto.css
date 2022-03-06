@@ -1,0 +1,22 @@
+.carousel-item {
+  height: 470px;
+}
+
+.carousel-item img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 470px;
+}
+
+#carticon {
+  height: 65px;
+  width: 65px;
+  padding-top: 12px;
+  padding-left: 10px;
+}
+
+.carousel {
+  font-family: "MedievalSharp", cursive;
+}
