@@ -20,3 +20,17 @@
 .carousel {
   font-family: "MedievalSharp", cursive;
 }
+
+.container-divisao {
+  width: 100%;
+  margin: 0px;
+  /* margin-top: 5px; */
+  height: 80px;
+  /* margin-bottom: 5px; */
+  background-color: black;
+  padding: 3px;
+}
+
+body {
+  background-color: #27282b;
+}
