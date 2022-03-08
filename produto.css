@@ -2,39 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
-    --primary-color: #84C9FB 
+  --primary-color: #84c9fb;
 }
 
 body {
-    background-color: #27282B;
-    color: aliceblue;
-    font-family: Roboto, sans-serif;
+  background-color: #27282b;
+  color: aliceblue;
+  font-family: Roboto, sans-serif;
 }
 
 header {
-    color: black;
-    background-color: blanchedalmond;
+  color: black;
+  background-color: blanchedalmond;
 }
 
 button {
-    font-family: Montserrat, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
-header>a {
-    font-weight: 100;
-    color: rgba(0, 0, 0, 0.25);
-    font-size: 2.25rem;
+header > a {
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 2.25rem;
 }
 
-header>nav>ul {
-    font-family: Montserrat, sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-
+header > nav > ul {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
-
 
 .carousel-item {
   height: 470px;
@@ -71,4 +68,55 @@ header>nav>ul {
 
 body {
   background-color: #27282b;
+}
+
+/* REVIEWS */
+
+.box-reviews {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.rev-section {
+  /* display: flex; */
+  /* background-color: aqua; */
+  margin: auto;
+  padding: 0 1rem;
+  width: 70%;
+  text-align: center;
+}
+
+.head-review {
+  display: flex;
+}
+
+.reviews {
+  margin: 2rem auto;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.review {
+  margin: 0 1 rem;
+  min-width: 300px;
+  /* display: flex; */
+}
+.head-review {
+  height: 150px;
+  width: 150px;
+}
+.img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(7, 7, 7, 0.25);
+}
+
+.body-review {
+  background-color: #323336;
+  box-shadow: 0 0 10px rgba(7, 7, 7, 0.25);
+  padding: 1.5rem;
 }
