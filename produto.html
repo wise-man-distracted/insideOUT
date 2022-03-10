@@ -65,76 +65,90 @@
         </ul>
       </nav>
     </header>
+
+    <!-- SLIDES CARROUSEL -->
     <section>
-      <div class="container-fluid">
-        <div
-          id="carouselExampleInterval"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="5000">
-              <img
-                src="/public/slide-winter.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-              <div class="carousel-caption">
-                <h2 class="display-6 text-start text-light">
-                  Encountering Winter's Wrath
-                </h2>
+      <div class="slides">
+        <div class="row justify-content-center">
+          <div class="col-md-12 px-4">
+            <div
+              id="carouselExampleInterval"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                  <img
+                    src="/public/slide-winter.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption">
+                    <h2 class="display-6 text-start text-light">
+                      Encountering Winter's Wrath
+                    </h2>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                  <img
+                    src="public/slide-forest.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption">
+                    <h2 class="display-6 text-start text-light">
+                      Character Secrets
+                    </h2>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                  <img
+                    src="/public/Webp.net-resizeimage.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption">
+                    <h2 class="display-6 text-start text-light">
+                      More Monsters Than Ever
+                    </h2>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-              <img
-                src="public/slide-forest.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-              <div class="carousel-caption">
-                <h2 class="display-6 text-start text-light">
-                  Character Secrets
-                </h2>
-              </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-              <img
-                src="/public/Webp.net-resizeimage.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-              <div class="carousel-caption">
-                <h2 class="display-6 text-start text-light">
-                  More Monsters Than Ever
-                </h2>
-              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleInterval"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleInterval"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
       </div>
     </section>
 
+    <!-- DESCRIÇÃO DO PRODUTO -->
+
     <section id="intro">
-      <div class="container-xl py-5">
-        <div class="row justify-content-center align-items-center">
+      <div class="container-lg py-5">
+        <div class="row justify-content-center">
           <div class="col-md-5 text-center text-md-start">
             <h1>
               <div class="display-5 pb-3 text-light">Descrição do produto</div>
@@ -158,11 +172,13 @@
               and what will their discovery mean for the denizens of Icewind
               Dale?
             </p>
-            <a href="#pricing" class="btn btn-outline-light btn-lg"
+            <a href="#pricing" class="btn btn-outline-light btn-lg text-center"
               >Reviews and More</a
             >
           </div>
-          <!-- <div class="col-md-5 text-center d-none d-md-block"> -->
+
+          <!-- CARD DO PRODUTO -->
+
           <div class="col-8 col-lg-4 col-xl-3 mt-3">
             <div class="card border-5 bg-dark">
               <div class="card-body text-center py-5">
@@ -200,6 +216,8 @@
         </div>
       </div>
 
+      <!-- DIVISAO-DESCRIÇÃO -->
+
       <div class="container-divisao align-items-center text-center mb-3">
         <div class="fs-3 text-muted text-center">
           <small
@@ -209,117 +227,25 @@
         </div>
       </div>
 
-      <center>
-        <iframe
-          id="iframe"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/iGWx5h5q7MY?autoplay=1 "
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </center>
-    </section>
-
-    <!-- REVIEWS -->
-
-    <section>
-      <!-- <div class="container-lg"> -->
-      <div class="box-reviews">
-        <div class="rev-section pt-5">
-          <h2 class="title display-5 py-2">Reviews from our Community</h2>
-          <p class="lead note py-2">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            expedita nihil nobis alias. Obcaecati provident explicabo neque
-            reprehenderit ab doloremque.
-          </p>
-
-          <div class="reviews">
-            <div class="review">
-              <div class="head-review">
-                <img
-                  class="img"
-                  src="/public/review-5.jpg"
-                  alt="review-pic"
-                  width="250px"
-                />
-              </div>
-              <div class="body-review">
-                <div class="name-review">Name</div>
-                <div class="place-review">Country</div>
-                <div class="rating">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <div class="desc-review">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Possimus id molestiae inventore iure ab suscipit officiis
-                  necessitatibus rem dicta dolorum?
-                </div>
-              </div>
-            </div>
-            <div class="review">
-              <div class="head-review">
-                <img
-                  class="img"
-                  src="/public/review-2.jpg"
-                  alt="review-pic"
-                  width="250px"
-                />
-              </div>
-              <div class="body-review">
-                <div class="name-review">Silver Surfer</div>
-                <div class="place-review">Country</div>
-                <div class="rating">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <div class="desc-review">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Possimus id molestiae inventore iure ab suscipit officiis
-                  necessitatibus rem dicta dolorum?
-                </div>
-              </div>
-            </div>
-            <div class="review">
-              <div class="head-review">
-                <img
-                  class="img"
-                  src="/public/review-3.jpg"
-                  alt="review-pic"
-                  width="250px"
-                />
-              </div>
-              <div class="body-review">
-                <div class="name-review">Name</div>
-                <div class="place-review">Country</div>
-                <div class="rating">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <div class="desc-review">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Possimus id molestiae inventore iure ab suscipit officiis
-                  necessitatibus rem dicta dolorum?
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <!-- VIDEO DO PRODUTO -->
+      <div class="container py-4">
+        <center>
+          <iframe
+            class="container"
+            id="iframe"
+            width="400"
+            height="315"
+            src="https://www.youtube.com/embed/iGWx5h5q7MY?autoplay=1 "
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </center>
       </div>
-      <!-- </div> -->
     </section>
+
+    <section></section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
