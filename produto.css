@@ -73,13 +73,26 @@ body {
   background-color: #27282b;
 }
 
-#iframe {
-  width: 800px;
-}
+/* #iframe {
+  width: 600px;
+} */
 
 /* REVIEWS */
 
 .user {
   width: 250px;
   height: 150px;
+}
+
+.card-img-top {
+  height: 150px;
+}
+
+.card {
+  text-align: center;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
 }
